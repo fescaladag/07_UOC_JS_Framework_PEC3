@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    
+    //Versión de Javascript a la que se va compilar el codigo Typescript
+    "target": "es2015", // versión ECMAScript 2015
+    
+    //sistema de módulos queremos usar al compilar
+    "module": "commonjs", 
+
+  //indica en qué carpeta Typescript va a dejar los ficheros .js compilados
+    "outDir": "./dist",   
+
+    
+   //directorio raiz de los archivos Typescript 
+    "rootDir": "./src", 
+    
+    //indica a Typescript que sea lo más estricto posible a la hora de pasar o no errores
+    "strict": true,
+
+//Activa la compilación incremental, para asegurar que solo recompila los cambios y no los archivos que no han cambiado
+    "incremental": true,
+
+    //Carpeta desde donde se guarda la compilación anterior (siempre y cuando este activada la compilación incremental)
+    "tsBuildInfoFile": "./buildcache",
+  }
+}
