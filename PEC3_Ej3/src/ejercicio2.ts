@@ -30,5 +30,5 @@ myHangar['H789']={
  * H789:boeing(151)
  */
 for (let key in myHangar){
-    console.log(`${key}:${myHangar.model}(${myHangar.npassengers})`)
+    console.log(`${key}:${myHangar[key].model}(${myHangar[key].npassengers})`)
 }

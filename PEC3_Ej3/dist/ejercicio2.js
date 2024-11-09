@@ -15,6 +15,5 @@ myHangar['H789'] = {
  * H789:boeing(151)
  */
 for (let key in myHangar) {
-    const plane = myHangar[key]
-    console.log(`${key}:${plane.model}(${plane.npassengers})`);
+    console.log(`${key}:${myHangar[key].model}(${myHangar[key].npassengers})`);
 }
