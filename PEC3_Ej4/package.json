@@ -1,0 +1,24 @@
+{
+  "name": "pec3",
+  "version": "1.0.0",
+  "description": "**Login UOC :** fescaladag@uoc.edu\r **Alumno**: Fran Escalada García",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
